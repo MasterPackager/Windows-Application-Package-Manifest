@@ -6,7 +6,7 @@ To help developers build Windows application packages that end-users love, enter
 1. **Lower security risk.**
 2. **Increase sales and userbase within enterprises.** Higher chance that organizations will choose applications whose package doesn't need re-packaging to standardize for enterprise deployment.
 3. **Better user expriecne.**
-4. **Easier app maintenance.** Understanding common practices and the why, can significantly improve the rate of major architectural changes for application in the future.
+4. **Easier app maintenance for developers.** Understanding common practices and the why, can significantly lower the rate of major architectural changes for the application in the future.
 
 ## General
 
@@ -26,8 +26,7 @@ To help developers build Windows application packages that end-users love, enter
    	 - All used scripts (.ps1, vbs, vba, bat, .js, .jse, etc.)
    	 - Sign your package with the same certificate you sign application binaries
   
- - Build your installer or package in the **MSI** or **MSIX** packaging formats.
- - Avoid EXE and other formats as they can slow down enterprise application lifecycle.
+
 
 ## Binaries
 **Application data** - data that is created by the application.  
@@ -54,6 +53,19 @@ It's important to install and allow binary creation in specific Windows OS locat
  - If the app requires changes for system boot → HKEY_LOCAL_MACHINE\System
 
 Do not create or modify any other registry key.
+
+## Package
+
+### Package type
+ - Build your installer package in the **MSI** or **MSIX** packaging formats.
+ - Avoid EXE and other formats as they can slow down enterprise application lifecycle.
+
+### Installation wizard
+ - Do not build one.
+ - Selecting specific features
+     - Install all features by default, but allow configuring via app or installation command line which one to make more visible and which one to hide
+     - If the specific feature is larger than 1GB consider building a separate installer package as an add-on for your app.
+
 
 
 
