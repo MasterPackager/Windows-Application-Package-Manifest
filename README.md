@@ -5,7 +5,7 @@ To help developers build Windows application packages that end-users love, enter
 
 1. **Lower security risk by building Windows applications and their installation packages based on Microsoft security standards.**
 2. **Increase application sales and user base.** Build your application in a way enterprises don't need to spend money and time to repackage it to match the industry standards.
-3. **Improve user expriecne.** Know what 
+3. **Improve user expriecne.**
 4. **Easier app maintenance for developers.** Understanding common practices and the why behind them, can significantly lower the rate of major architectural changes for the application in the future.
 
 ## General
@@ -55,8 +55,12 @@ All application binaries must be signed
  - Build your installer package in the **MSIX** or **MSI** packaging formats. If can, choose MSIX as the primer packaging type.
  - Avoid EXE and other formats as they can slow down the enterprise application management lifecycle.
 
-## MSIX
+### MSIX
  - Be aware of MSIX packaging type limitations and benefits.
+
+### Configuration
+ - Make it possible to configure your applications via the command line during installation
+     - That is needed so that enterprises no need to repackage the applciation
 
 ### Installation wizard
  - Do not build one. Have a simple as possible way to install and uninstall the app.
