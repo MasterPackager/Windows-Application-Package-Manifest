@@ -60,7 +60,7 @@ All application binaries must be signed
 
 ### Configuration
  - Make it possible to configure your applications via the command line during installation
-     - That is needed so that enterprises no need to repackage the applciation
+     - That is needed so that enterprises do need to repackage the application
 
 ### Installation wizard
  - Do not build one. Have a simple as possible way to install and uninstall the app.
@@ -96,10 +96,14 @@ Make the end-user environment clean and understandable.
  - Do not create uninstall shortcuts. Windows offers an uninstall option by right-clicking on any app shortcut.
  - Do not create rarely-needed shortcuts like links to the website, release notes, etc.
 
+### Office 365 add-ins
+ - New Office versions will support only Web add-ins. Microsoft has no plans to continue to support COM/VSTO Add-ins.
+
 ## References
 - [Certification Requirements for Windows Desktop Apps](https://learn.microsoft.com/en-us/windows/win32/win_cert/certification-requirements-for-windows-desktop-apps)
 - [NCSC End User Device Guidance](https://www.ncsc.gov.uk/collection/device-security-guidance/platform-guides/windows)
 - [How to Build Better and More Secure Software for Windows by Sami Laiho](https://youtu.be/-xk9lQf27wM)
 - [Reddit EXE vs MSI : r/sysadmin ([https://youtu.be/-xk9lQf27wM](https://www.reddit.com/r/sysadmin/comments/1473cq4/exe_vs_msi/)
 - [Smart App Control](https://learn.microsoft.com/en-us/windows/apps/develop/smart-app-control/overview)
+- [Microsoft Office 365 Add-ins](https://techcommunity.microsoft.com/t5/outlook-blog/things-to-know-about-the-new-outlook-for-windows/ba-p/3383964)
 - Microsoft MSI and MSIX documentation
