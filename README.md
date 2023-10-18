@@ -108,7 +108,7 @@ Make the end-user environment clean and understandable.
 - [Certification Requirements for Windows Desktop Apps](https://learn.microsoft.com/en-us/windows/win32/win_cert/certification-requirements-for-windows-desktop-apps)
 - [NCSC End User Device Guidance](https://www.ncsc.gov.uk/collection/device-security-guidance/platform-guides/windows)
 - [How to Build Better and More Secure Software for Windows by Sami Laiho](https://youtu.be/-xk9lQf27wM)
-- [Reddit EXE vs MSI : r/sysadmin]([https://youtu.be/-xk9lQf27wM](https://www.reddit.com/r/sysadmin/comments/1473cq4/exe_vs_msi/)
+- [Reddit EXE vs MSI r/sysadmin](https://www.reddit.com/r/sysadmin/comments/1473cq4/exe_vs_msi)
 - [Smart App Control](https://learn.microsoft.com/en-us/windows/apps/develop/smart-app-control/overview)
 - [Microsoft Office 365 Add-ins](https://techcommunity.microsoft.com/t5/outlook-blog/things-to-know-about-the-new-outlook-for-windows/ba-p/3383964)
 - [Deprecated features for Windows client](https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features)
