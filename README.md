@@ -4,9 +4,10 @@ To help developers build Windows application packages that end-users love, enter
 ## Why you should follow this manifest?
 
 1. **Lower security risk by building Windows applications and their installation packages based on Microsoft security standards.**
-2. **Increase application sales and user base.** Build your application in a way enterprises don't need to spend money and time to repackage it to match the industry standards.
-3. **Improve user expriecne.**
+2. **Increase application sales and user base.** Build your application in a way enterprises don't need to spend money and time to repackage it to match the industry standards. There is a higher chance for enterprises to choose applications that follow this manifest file.
+3. **Improve user expriecne.** Make the application user-friendly.
 4. **Easier app maintenance for developers.** Understanding common practices and the why behind them, can significantly lower the rate of major architectural changes for the application in the future.
+
 
 ## General
  - **Application must be able to install and uninstall silently using system account**
@@ -46,7 +47,7 @@ All application binaries must be signed
  - Do not create or modify any other registry key.
 
 ### Permissions
-"In Windows, there is no security if you run as admin."
+"In Windows, there is no security if you run as admin." /Sami Laiho
   - Remove the executable need for admin rights → Develop device driver instead
   - If MSIX and Windows 11
        - [App Isolation](https://github.com/microsoft/win32-app-isolation/tree/main)
