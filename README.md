@@ -58,14 +58,15 @@ All application binaries must be signed
  - Avoid EXE and other formats as they can slow down the enterprise application management lifecycle.
 
 ### MSI
- - Do not use VbSCript
+ - Do not use VBScript is planned to be deprecated.
 
 ### MSIX
  - Be aware of MSIX packaging type limitations and benefits.
 
 ### Configuration
- - Make it possible to configure your applications via the command line during installation
+ - Make it possible to configure your applications via command line during installation.
      - That is needed so that enterprises do need to repackage the application
+     - Enterprises need a way to preconfigure the application during installation so that end-users do not need to know how to do it themselves.
 
 ### Installation wizard
  - Do not build one. Have a simple as possible way to install and uninstall the app.
