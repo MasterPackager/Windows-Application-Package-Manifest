@@ -14,6 +14,7 @@ To help developers build Windows application packages that end-users love, enter
    	 - Without the need for user input
    	 - Without visible popups
    	 - Without opening other applications
+   	 - Without the need to restart the machine
  - **Everything that is installed must be uninstalled**
    	 - Exception is configuration and user data can be left installed
 
@@ -56,6 +57,9 @@ All application binaries must be signed
  - Build your installer package in the **MSIX** or **MSI** packaging formats. If can, choose MSIX as the primer packaging type.
  - Avoid EXE and other formats as they can slow down the enterprise application management lifecycle.
 
+### MSI
+ - Do not use VbSCript
+
 ### MSIX
  - Be aware of MSIX packaging type limitations and benefits.
 
@@ -94,7 +98,7 @@ Make the end-user environment clean and understandable.
  - Name the shortcut without the app version
       - _Example: "App Name"_
  - Do not create desktop and taskbar shortcuts. Desktop and taskbar is end-user private space and they can create shortcuts there on their own.
- - Do not create uninstall shortcuts. Windows offers an uninstall option by right-clicking on any app shortcut.
+ - Do not create uninstall shortcuts. Windows offers an uninstall option by right-clicking on any app shortcut and from Programs and Features.
  - Do not create rarely-needed shortcuts like links to the website, release notes, etc.
 
 ### Office 365 add-ins
@@ -107,4 +111,5 @@ Make the end-user environment clean and understandable.
 - [Reddit EXE vs MSI : r/sysadmin ([https://youtu.be/-xk9lQf27wM](https://www.reddit.com/r/sysadmin/comments/1473cq4/exe_vs_msi/)
 - [Smart App Control](https://learn.microsoft.com/en-us/windows/apps/develop/smart-app-control/overview)
 - [Microsoft Office 365 Add-ins](https://techcommunity.microsoft.com/t5/outlook-blog/things-to-know-about-the-new-outlook-for-windows/ba-p/3383964)
-- Microsoft MSI and MSIX documentation
+- [Deprecated features for Windows client](https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features)
+- [MSIX Know Your Installer](https://learn.microsoft.com/en-us/windows/msix/packaging-tool/know-your-installer)
