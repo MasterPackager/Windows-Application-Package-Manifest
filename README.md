@@ -62,6 +62,7 @@ All application binaries must be signed
 
 ### MSIX
  - Be aware of MSIX packaging type limitations and benefits.
+     - [MSIX Know Your Installer](https://learn.microsoft.com/en-us/windows/msix/packaging-tool/know-your-installer)
 
 ### Configuration
  - Make it possible to configure your applications via command line during installation.
