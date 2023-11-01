@@ -98,12 +98,16 @@ Make the end-user environment clean and understandable.
     - _Example: "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\App Name"_
  - Name the shortcut without the app version
       - _Example: "App Name"_
- - Do not create desktop and taskbar shortcuts. Desktop and taskbar is end-user private space and they can create shortcuts there on their own.
+ - Do not create desktop and taskbar shortcuts. The desktop and taskbar are end-users private space and they can create shortcuts there on their own.
  - Do not create uninstall shortcuts. Windows offers an uninstall option by right-clicking on any app shortcut and from Programs and Features.
  - Do not create rarely-needed shortcuts like links to the website, release notes, etc.
 
 ### Office 365 add-ins
  - New Office versions will support only Web add-ins. Microsoft has no plans to continue to support COM/VSTO Add-ins.
+
+### Context Menu 
+ - Follow Microsoft recommendations
+    - [Windows 11 Context Menu Best Practices - Microsoft Blog](https://blogs.windows.com/blog/2021/07/19/extending-the-context-menu-and-share-dialog-in-windows-11/)
 
 ## References
 - [Certification Requirements for Windows Desktop Apps](https://learn.microsoft.com/en-us/windows/win32/win_cert/certification-requirements-for-windows-desktop-apps)
@@ -114,3 +118,4 @@ Make the end-user environment clean and understandable.
 - [Microsoft Office 365 Add-ins](https://techcommunity.microsoft.com/t5/outlook-blog/things-to-know-about-the-new-outlook-for-windows/ba-p/3383964)
 - [Deprecated features for Windows client](https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features)
 - [MSIX Know Your Installer](https://learn.microsoft.com/en-us/windows/msix/packaging-tool/know-your-installer)
+- [Windows 11 Context Menu Best Practices - Microsoft Blog](https://blogs.windows.com/blog/2021/07/19/extending-the-context-menu-and-share-dialog-in-windows-11/)
