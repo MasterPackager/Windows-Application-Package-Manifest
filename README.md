@@ -15,6 +15,10 @@ To help developers build Windows application packages that end-users love, enter
    	 - Without visible popups
    	 - Without opening other applications
    	 - Without the need to restart the machine
+- **Application must be able to be configured based on organization needs using command line**
+   	 - Disable automatic application updates
+   	 - Activate application
+   	 - Configure application
  - **Everything that is installed must be uninstalled**
    	 - Exception is configuration and user data can be left installed
 
@@ -58,14 +62,14 @@ All application binaries must be signed
  - Avoid EXE and other formats as they can slow down the enterprise application management lifecycle.
 
 ### MSI
- - Do not use VBScript is planned to be deprecated.
+ - Do not use VBScript because it's planned to be deprecated.
 
 ### MSIX
  - Be aware of MSIX packaging type limitations and benefits.
      - [MSIX Know Your Installer](https://learn.microsoft.com/en-us/windows/msix/packaging-tool/know-your-installer)
 
 ### Configuration
- - Make it possible to configure your applications via command line during installation.
+ - Make it possible to configure your applications via the command line during installation.
      - That is needed so that enterprises do need to repackage the application
      - Enterprises need a way to preconfigure the application during installation so that end-users do not need to know how to do it themselves.
 
