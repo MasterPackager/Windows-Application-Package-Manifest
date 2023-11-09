@@ -1,5 +1,5 @@
 # Windows Application Package Manifest
-To help developers build Windows application packages that end-users love, enterprises want, and Windows OS needs.
+To help build Windows application packages that end-users love, enterprises want, and Windows OS needs.
 
 ## Why you should follow this manifest?
 
