@@ -1,7 +1,7 @@
 # Windows Application Package Manifest
 To help build Windows application packages that end-users love, enterprises want, and Windows OS needs.
 
-## Why you should follow this manifest?
+## Why should you follow this manifesto?
 
 1. **Lower security risk by building Windows applications and their installation packages based on Microsoft security standards.**
 2. **Increase application sales and user base.** Build your application in a way enterprises don't need to spend money and time to repackage it to match the industry standards. There is a higher chance for enterprises to choose applications that follow this manifest file.
