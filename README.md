@@ -21,6 +21,8 @@ To help build Windows application packages that end-users love, enterprises want
    	 - Configure application
  - **Everything that is installed must be uninstalled**
    	 - Exception is configuration and user data can be left installed
+ - **Do not create Per-User Win32 app installers**
+     - For per-user installed apps the best way is to use MSIX 
 
 ## Security
 **Application data** - data that is created by the application.  
