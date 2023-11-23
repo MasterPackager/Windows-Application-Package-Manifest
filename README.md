@@ -110,7 +110,8 @@ Make the end-user environment clean and understandable.
  - Do not create rarely-needed shortcuts like links to the website, release notes, etc.
 
 ### Office 365 add-ins
- - New Office versions will support only Web add-ins. Microsoft has no plans to continue to support COM/VSTO Add-ins.
+ - New Outlook versions will support only Web add-ins. Microsoft has no plans to continue to support COM/VSTO Add-ins.
+       - [Microsoft Outlook Add-ins](https://techcommunity.microsoft.com/t5/outlook-blog/things-to-know-about-the-new-outlook-for-windows/ba-p/3383964)
 
 ### Dependencies
  - There should be an option to disable auto-install of 3rd party dependencies as enterprises deliver 3rd party dependencies separately to control versions.
@@ -127,7 +128,6 @@ Make the end-user environment clean and understandable.
 - [How to Build Better and More Secure Software for Windows by Sami Laiho](https://youtu.be/-xk9lQf27wM)
 - [Reddit EXE vs MSI r/sysadmin](https://www.reddit.com/r/sysadmin/comments/1473cq4/exe_vs_msi)
 - [Smart App Control](https://learn.microsoft.com/en-us/windows/apps/develop/smart-app-control/overview)
-- [Microsoft Office 365 Add-ins](https://techcommunity.microsoft.com/t5/outlook-blog/things-to-know-about-the-new-outlook-for-windows/ba-p/3383964)
 - [Deprecated features for Windows client](https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features)
 - [MSIX Know Your Installer](https://learn.microsoft.com/en-us/windows/msix/packaging-tool/know-your-installer)
 - [Windows 11 Context Menu Best Practices - Microsoft Blog](https://blogs.windows.com/blog/2021/07/19/extending-the-context-menu-and-share-dialog-in-windows-11/)
