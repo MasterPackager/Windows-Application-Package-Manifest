@@ -31,8 +31,8 @@ To help build Windows application packages that end-users love, enterprises want
 It's important to install and allow binary creation in specific Windows OS locations to ensure maximum security, packaging format compatibility, and application ease of use.
 
 ### Files
-  - 64bit app → “C:\Program Files\<Company Name>\<App Name>"
-  - 32bit app → “C:\Program Files (x86))\<Company Name>\<App Name>"
+  - 64bit app → `C:\Program Files\<Company Name>\<App Name>`
+  - 32bit app → `C:\Program Files (x86)\<Company Name>\<App Name>`
 
 ### Code signing
 All application binaries must be signed
@@ -41,11 +41,11 @@ All application binaries must be signed
   - Sign your package with the same certificate you sign application binaries.
 
 ### Data
-  - Shared with all users → “C:\ProgramData\<App Name>"
+  - Shared with all users → `C:\ProgramData\<App Name>`
   - Per-user
-     - Roaming data → “C:\Users\<username>\AppData\Roaming\<App Name>"
-     - Not roaming (medium integrity data) → “C:\Users\<username>\AppData\Local\<App Name>".
-     - Not roaming (low integrity data) → “C:\Users\<username>\AppData\Local\Low\<App Name>".
+     - Roaming data → `C:\Users\<username>\AppData\Roaming\<App Name>`
+     - Not roaming (medium integrity data) → `C:\Users\<username>\AppData\Local\<App Name>`.
+     - Not roaming (low integrity data) → `C:\Users\<username>\AppData\Local\Low\<App Name>`.
 
 ### Registries
  - Per-machine → HKEY_LOCAL_MACHINE\Software\<App Name>.
@@ -100,9 +100,9 @@ Make the end-user environment clean and understandable.
   - _Example: "C:\Program Files (x86)\Vendor\App Name"_
 
 ### Shortcuts
- - Default location is → "C:\ProgramData\Microsoft\Windows\Start Menu\Programs".
+ - Default location is → `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`.
     - If the application has more than one shortcut create a folder to combine them.
-    - _Example: "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\App Name"_.
+    - _Example: `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\App Name`_.
  - Name the shortcut without the app version.
       - _Example: "App Name"_.
  - Do not create desktop and taskbar shortcuts. The desktop and taskbar are end-users private space and they can create shortcuts there on their own.
