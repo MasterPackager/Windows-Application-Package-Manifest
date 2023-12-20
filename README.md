@@ -48,9 +48,9 @@ All application binaries must be signed
      - Not roaming (low integrity data) → `C:\Users\<username>\AppData\Local\Low\<App Name>`.
 
 ### Registries
- - Per-machine → HKEY_LOCAL_MACHINE\Software\<App Name>.
- - Per-user → HKEY_CURRENT_USER\Software\<App Name>.
- - If the app requires changes for system boot → HKEY_LOCAL_MACHINE\System.
+ - Per-machine → `HKEY_LOCAL_MACHINE\Software\<App Name>`.
+ - Per-user → `HKEY_CURRENT_USER\Software\<App Name>`.
+ - If the app requires changes for system boot → `HKEY_LOCAL_MACHINE\System`.
  - Do not create or modify any other registry key.
 
 ### Permissions
@@ -97,7 +97,7 @@ Make the end-user environment clean and understandable.
  
 ### Installation Directory folder structure
   - Company Name\App Name
-  - _Example: "C:\Program Files (x86)\Vendor\App Name"_
+  - _Example: `C:\Program Files (x86)\Vendor\App Name`_
 
 ### Shortcuts
  - Default location is → `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`.
