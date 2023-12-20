@@ -92,6 +92,7 @@ Make the end-user environment clean and understandable.
 
 ### Application Version
   - Major.Minor.Build.Revision.
+     - There should be no letters in the versioning to avoid breaking the version control for other solutions managing applications.
      - Major cannot be 0 for MSIX packages.
      - Revision can be skipped for MSI packages.
  
